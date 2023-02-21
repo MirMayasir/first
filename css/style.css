@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.top-container{
+    background-color: #B9F3E4;
+    position: relative;
+    padding-top: 100px;
+    height: 420px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: rgb(6, 97, 97);
+}
+h2{
+    color: rgb(6, 97, 97);
+}
+h3{
+    color: rgb(6, 97, 97);
+    font-size: 20px;
+}
+
+.top-container h1{
+    font-size: 3rem;
+}
+
+.intro{
+    width: 400px;
+    margin: auto;
+}
+.middle-container{
+    margin: 5px auto 5px auto;
+    
+}
+
+.bottom-container{
+    background-color: rgb(14, 125, 125);
+    line-height: 4;
+}
+.bottom-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 10px 10px;
+}
+
+.bottom-container a:hover{
+    color: azure;
+}
+.contact-me{
+    margin: 40px auto 40px auto;
+    line-height: 2;
+}
+
+.contact-me button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(25, 193, 193);
+    border: 0 solid;
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+}
+.contact-me button a{
+    text-decoration: none;
+}
+
+.contact-me h2{
+    font-size: 40px;
+}
+.cloud1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+.mount-img{
+    height: 248px;
+    width: 600px;
+    margin: 100px 0px;
+}
+.cloud2{
+    position: absolute;
+    left: 300px;
+    bottom: 260px;
+    width: 100px;
+    height: 50px;
+
+}
+.profile{
+    margin: 50px auto 50px auto;
+    line-height: 2;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+
+.profile h{
+    margin: 0px 0px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+    text-align: left ;
+}
+.web-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100% ;
+    float: left;
+    margin-right: 30px ;
+}
+
+.and-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100% ;
+    float: right;
+    margin-right: 30px ;
+}
+
+.skills h2{
+    margin: 40px auto 10px auto;
+    font-size: 40px;
+}
+
+hr{
+    border: 6px dotted grey;
+    border-bottom: none;
+    width: 5%;
+    margin: auto;
+}
+
+.contact-intro{
+    width: 400px;
+    margin: auto;
+}
